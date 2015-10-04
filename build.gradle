@@ -1,0 +1,38 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.2.3'
+
+        /* NOTE: Do not place your application dependencies here;
+         * they belong in the individual module build.gradle files */
+    }
+}
+
+allprojects {
+
+    /* Repositories used in the top-level project. Note: Also add the dependency
+     * in each module (lower-level project) in which the library is used */
+    repositories {
+        jcenter()
+        mavenCentral()
+        
+        // Maven
+        maven {
+
+            // AChartEngine (Graphing Library)
+            url "https://repository-achartengine.forge.cloudbees.com/snapshot/"
+        }
+        
+        // Ivy
+        ivy {
+            
+            // MetaWear (External accelerometer)
+            url "http://ivyrep.mbientlab.com"
+            layout "gradle"
+        }
+    }
+}

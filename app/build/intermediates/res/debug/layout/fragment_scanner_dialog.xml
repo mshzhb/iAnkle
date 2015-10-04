@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/small_margin" >
+
+    <LinearLayout
+        android:id="@+id/fragment_scanner_dialog_linearlayout_lists"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/small_margin">
+
+        <LinearLayout
+            android:id="@+id/fragment_scanner_dialog_layout_list_internal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true" />
+        
+        <ListView
+            android:id="@+id/fragment_scanner_dialog_list_view_external"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fragment_scanner_dialog_linearlayout_button_bar"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+        <Button
+            android:id="@+id/fragment_scanner_dialog_button_cancel"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/blue"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/fragment_scanner_dialog_cancel"
+            android:textColor="@color/white" />
+        
+        <Button
+            android:id="@+id/fragment_scanner_dialog_button_scan"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/blue"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/fragment_scanner_dialog_scan"
+            android:textColor="@color/white" />
+        
+    </LinearLayout>
+    
+</LinearLayout><!-- From: file:/Users/mshzhb/StudioProjects/iAnkle/app/src/main/res/layout/fragment_scanner_dialog.xml -->
