@@ -55,7 +55,7 @@ public class FragmentGameEntrance extends Fragment implements Accelerometer.Acce
     long lastUpdateBN = 0;
     private Samples mSamples;
     // Starting measurement state
-    private volatile int mState = STATE_IDLE;
+    private volatile int mState = STATE_MEASURE;
 
     // Hardware
     private Accelerometer mAccelerometer;
@@ -97,6 +97,7 @@ public class FragmentGameEntrance extends Fragment implements Accelerometer.Acce
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_fragment_game_entrance, container, false);
         ButtonStart = (Button) view.findViewById(R.id.buttonStart);
+        ButtonStart.setText("Stop");
         ButtonStart.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 onStartButtonClick(v);
@@ -137,10 +138,12 @@ public class FragmentGameEntrance extends Fragment implements Accelerometer.Acce
         if(mState == STATE_IDLE){
             mAccelerometer.start();
             mState = STATE_MEASURE;
+            ButtonStart.setText("Stop");
         }
         else {
             mAccelerometer.stop();
             mState = STATE_IDLE;
+            ButtonStart.setText("Start");
         }
 
     }
@@ -195,7 +198,7 @@ public class FragmentGameEntrance extends Fragment implements Accelerometer.Acce
                 lastUpdateBN = curTime;
           }
 
-        
+
     }
 
     @Override
