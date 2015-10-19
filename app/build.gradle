@@ -28,16 +28,14 @@ assembleDebug.dependsOn(copyResDirectoryToClasses)
 
 // Add project-level dependencies here
 dependencies {
-
     // Libraries in the 'libs' folder are automatically linked as dependencies
     compile fileTree(dir: 'libs', include: ['*.jar'])
-
     // Gradle and Maven
     compile 'com.android.support:appcompat-v7:22.2.1'
     compile 'com.android.support:recyclerview-v7:22.2.1'
     compile 'com.android.support:cardview-v7:22.2.1'
-
     compile 'com.github.citux:datetimepicker:0.1.2'
-	compile 'com.mbientlab:metawear:1.5.3'
-    compile group: 'org.achartengine', name: 'achartengine', version: '1.2.0'
+    compile 'com.mbientlab:metawear:1.5.3'
+    compile 'org.achartengine:achartengine:1.2.0'
+    compile files('libs/unity-classes.jar')
 }

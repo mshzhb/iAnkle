@@ -19,6 +19,7 @@ import java.util.Timer;
 
 import edu.utoronto.cimsah.myankle.Accelerometers.Accelerometer;
 import edu.utoronto.cimsah.myankle.Accelerometers.AccelerometerManager;
+import edu.utoronto.cimsah.myankle.Game.MainActivity;
 import edu.utoronto.cimsah.myankle.Helpers.DatabaseHelper;
 import edu.utoronto.cimsah.myankle.Helpers.PrefUtils;
 import edu.utoronto.cimsah.myankle.Helpers.Samples;
@@ -46,6 +47,7 @@ public class FragmentGameEntrance extends Fragment implements Accelerometer.Acce
     private TextView textViewY;
     private TextView textViewZ;
     private Button ButtonStart;
+    private Button ButtonGame;
     private OnFragmentInteractionListener mListener;
 
     //ECE496
@@ -97,13 +99,20 @@ public class FragmentGameEntrance extends Fragment implements Accelerometer.Acce
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_fragment_game_entrance, container, false);
         ButtonStart = (Button) view.findViewById(R.id.buttonStart);
+        ButtonGame = (Button) view.findViewById(R.id.buttongame);
         ButtonStart.setText("Stop");
         ButtonStart.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 onStartButtonClick(v);
             }
         });
-        TextViewRealTimeBN = (TextView)view.findViewById(R.id.realtimebn);
+        ButtonGame.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent i = new Intent(getActivity(), MainActivity.class);
+                startActivity(i);
+            }
+        });
+                TextViewRealTimeBN = (TextView)view.findViewById(R.id.realtimebn);
         textViewX = (TextView)view.findViewById(R.id.textViewx);
         textViewY = (TextView)view.findViewById(R.id.textViewy);
         textViewZ = (TextView)view.findViewById(R.id.textViewz);

@@ -2,18 +2,18 @@
 <items version="2" >
 
     <item
-        jar="/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.1/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
-        <dex dex="/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/pre-dexed/debug/classes-425560b6a37f1e46bc9b86fcda75a7b09db2d600.jar" />
-    </item>
-    <item
         jar="/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.0/jars/libs/internal_impl-21.0.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="5a8e01742aee890c56fe638ea7c921b91a3fdc62">
         <dex dex="/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-804cfce915191b1c50deb20742896eee6a807ba8.jar" />
+    </item>
+    <item
+        jar="/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/pre-dexed/debug/classes-99314ea19284d51cc2303da94d0f19383b85ba2d.jar" />
     </item>
     <item
         jar="/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/exploded-aar/com.github.citux/datetimepicker/0.1.2/jars/classes.jar"
@@ -23,11 +23,25 @@
         <dex dex="/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/pre-dexed/debug/classes-af72b319eb5012e0441a5f07a188051ac63294d4.jar" />
     </item>
     <item
-        jar="/Users/mshzhb/.gradle/caches/modules-2/files-2.1/org.achartengine/achartengine/1.2.0/d71765e7e2588b65334cf66b66676e6c6d7bbff/achartengine-1.2.0.jar"
+        jar="/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="0d71765e7e2588b65334cf66b66676e6c6d7bbff">
-        <dex dex="/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/pre-dexed/debug/achartengine-1.2.0-fe2ca16a8eb7cecff5397b1328ed715b97214355.jar" />
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/pre-dexed/debug/classes-b7dea61a2bd63799e1652e54884f7974b6e39493.jar" />
+    </item>
+    <item
+        jar="/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0c0c19759e5868604a3b4c2c0074ee9404d73c76">
+        <dex dex="/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/pre-dexed/debug/classes-5084124eed1c808ef3ec0e98327eeab580fc933f.jar" />
+    </item>
+    <item
+        jar="/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
+        <dex dex="/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/pre-dexed/debug/classes-425560b6a37f1e46bc9b86fcda75a7b09db2d600.jar" />
     </item>
     <item
         jar="/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/exploded-aar/com.mbientlab/metawear/1.5.3/jars/classes.jar"
@@ -44,13 +58,6 @@
         <dex dex="/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/pre-dexed/debug/classes-d46c283ca5dbb21ed39b703019b36f2c178b3c97.jar" />
     </item>
     <item
-        jar="/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="f8efd0096475e0daf054267b61544e10dc776503">
-        <dex dex="/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/pre-dexed/debug/classes-b7dea61a2bd63799e1652e54884f7974b6e39493.jar" />
-    </item>
-    <item
         jar="/Users/mshzhb/StudioProjects/iAnkle/app/libs/libGoogleAnalyticsServices.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -58,18 +65,11 @@
         <dex dex="/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/pre-dexed/debug/libGoogleAnalyticsServices-9614bf258c961a3d33e1a600be9cc4e32b96e05e.jar" />
     </item>
     <item
-        jar="/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jar="/Users/mshzhb/StudioProjects/iAnkle/app/libs/unity-classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
-        <dex dex="/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/pre-dexed/debug/classes-99314ea19284d51cc2303da94d0f19383b85ba2d.jar" />
-    </item>
-    <item
-        jar="/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
-        <dex dex="/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-a99bc4afbf2321bd5ecbed28c3baa0f53dc7d8d8.jar" />
+        sha1="c38a8f26ae7384127ce35a824d1d4e9f42e44182">
+        <dex dex="/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/pre-dexed/debug/unity-classes-0e82e3a2cf337397a9bea33b5c7976c7c3746c08.jar" />
     </item>
     <item
         jar="/Users/mshzhb/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
@@ -79,11 +79,18 @@
         <dex dex="/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-5f7192ab2367d6995717eecc5ff6bf2c51f809c6.jar" />
     </item>
     <item
-        jar="/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.0/jars/classes.jar"
+        jar="/Users/mshzhb/.gradle/caches/modules-2/files-2.1/org.achartengine/achartengine/1.2.0/d71765e7e2588b65334cf66b66676e6c6d7bbff/achartengine-1.2.0.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="0c0c19759e5868604a3b4c2c0074ee9404d73c76">
-        <dex dex="/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/pre-dexed/debug/classes-5084124eed1c808ef3ec0e98327eeab580fc933f.jar" />
+        sha1="0d71765e7e2588b65334cf66b66676e6c6d7bbff">
+        <dex dex="/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/pre-dexed/debug/achartengine-1.2.0-fe2ca16a8eb7cecff5397b1328ed715b97214355.jar" />
+    </item>
+    <item
+        jar="/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-a99bc4afbf2321bd5ecbed28c3baa0f53dc7d8d8.jar" />
     </item>
 
 </items>
