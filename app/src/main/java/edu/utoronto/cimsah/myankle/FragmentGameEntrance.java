@@ -189,9 +189,9 @@ public class FragmentGameEntrance extends Fragment implements Accelerometer.Acce
                 lastUpdate = curTime;
 
                 float elapsedTime = diffTime;
-                float x = values[0];
-                float y = values[1];
-                float z = values[2];
+                float x = (float)(Math.round(values[0]*100))/100;
+                float y = (float)(Math.round(values[1]*100))/100;
+                float z = (float)(Math.round(values[2]*100))/100;
                 mSamples.add(elapsedTime, x, y, z);
             if (BuildConfig.DEBUG) {
                 // do something for a debug build

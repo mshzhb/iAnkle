@@ -54,7 +54,9 @@ public class MainActivity extends UnityPlayerActivity implements Accelerometer.A
          x = -values[0]/2;
          y = values[1]/2;
          z = values[2]/2;
-
+        x = (float)(Math.round(x*100))/100;
+        y = (float)(Math.round(y*100))/100;
+        z = (float)(Math.round(z*100))/100;
 
         textViewX.setText(""+x);
         textViewY.setText(""+y);
