@@ -58,7 +58,7 @@ public class FragmentGameEntrance extends Fragment implements Accelerometer.Acce
     private Samples mSamples;
     // Starting measurement state
     private volatile int mState = STATE_MEASURE;
-
+    public static float realTimeBN;
     // Hardware
     private Accelerometer mAccelerometer;
     /**
@@ -201,7 +201,7 @@ public class FragmentGameEntrance extends Fragment implements Accelerometer.Acce
             }
 
             if ((curTime - lastUpdateBN) > 400) {
-                float realTimeBN = mSamples.get_mean_r();
+                realTimeBN = mSamples.get_mean_r();
                 TextViewRealTimeBN.setText(""+realTimeBN);
                 mSamples.clear();
                 lastUpdateBN = curTime;

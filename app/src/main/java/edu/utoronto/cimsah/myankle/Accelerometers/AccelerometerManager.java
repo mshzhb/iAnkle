@@ -4,6 +4,7 @@ import android.content.Context;
 
 import edu.utoronto.cimsah.myankle.Accelerometers.BuiltIn.BuiltInAccelerometer;
 import edu.utoronto.cimsah.myankle.Accelerometers.MetaWear.MetawearAccelerometer;
+import edu.utoronto.cimsah.myankle.Game.MainActivity;
 import edu.utoronto.cimsah.myankle.Helpers.PrefUtils;
 
 @SuppressWarnings("unused")
@@ -29,6 +30,7 @@ public class AccelerometerManager {
 		
 		// Variable declaration
 		int deviceID = TYPE_NATIVE_PHONE;
+		MainActivity.device = TYPE_NATIVE_PHONE;
 		String deviceAddress = PrefUtils.getStringPreference(context, PrefUtils.MAC_ADDRESS_KEY);
 		
 		/* If the MAC Address is valid, select the appropriate BLE accelerometer. Note: To identify
@@ -37,6 +39,7 @@ public class AccelerometerManager {
 		//TODO: Check UUID instead of null/nonnull
 		if(deviceAddress != null) {
 			deviceID = TYPE_METAWEAR;
+			MainActivity.device = TYPE_METAWEAR;
 		}
 		
 		// Select the relevant Accelerometer based on the parametrized device ID

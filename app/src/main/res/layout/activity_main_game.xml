@@ -18,7 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="228dp"
             android:id="@+id/u3dlayout"
-            android:layout_weight="0.07"></FrameLayout>
+            android:layout_weight="0.99"></FrameLayout>
 
 
 

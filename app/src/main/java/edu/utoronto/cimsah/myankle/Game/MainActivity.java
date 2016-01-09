@@ -9,6 +9,7 @@ import com.unity3d.player.UnityPlayer;
 import edu.utoronto.cimsah.myankle.Accelerometers.Accelerometer;
 import edu.utoronto.cimsah.myankle.Accelerometers.AccelerometerManager;
 
+import edu.utoronto.cimsah.myankle.FragmentGameEntrance;
 import edu.utoronto.cimsah.myankle.R;
 
 public class MainActivity extends UnityPlayerActivity implements Accelerometer.AccelerometerListener{
@@ -20,6 +21,10 @@ public class MainActivity extends UnityPlayerActivity implements Accelerometer.A
     private TextView textViewX;
     private TextView textViewY;
     private TextView textViewZ;
+
+
+    public static int device;
+
 
     public static float x;
     public static float y;
@@ -58,9 +63,9 @@ public class MainActivity extends UnityPlayerActivity implements Accelerometer.A
         y = (float)(Math.round(y*100))/100;
         z = (float)(Math.round(z*100))/100;
 
-        textViewX.setText(""+x);
-        textViewY.setText(""+y);
-        textViewZ.setText(""+z);
+        textViewX.setText("" + x);
+        textViewY.setText("" + y);
+        textViewZ.setText("" + z);
 
     }
 
@@ -73,14 +78,32 @@ public class MainActivity extends UnityPlayerActivity implements Accelerometer.A
     @Override
     public void onAccelerometerDisconnected() {
     }
+//横向移动
 
     public static float getX() {
-
-        return x;
+       if(device == AccelerometerManager.TYPE_METAWEAR) {
+           if (Math.abs(z) > 0.1)
+               return z/2;
+           else
+               return 0;
+       }
+        else
+       {        x = ((float) (x * 1.3));
+               return x;}
     }
     public static float getZ() {
 
         return z;
+    }
+
+    public static float getY() {
+
+        return y;
+    }
+
+    public static float getBN() {
+
+        return  FragmentGameEntrance.realTimeBN;
     }
 
 }
