@@ -1,22 +1,23 @@
 package edu.utoronto.cimsah.myankle.Game;
 
+import android.app.Service;
 import android.os.Bundle;
+import android.os.Vibrator;
 import android.widget.FrameLayout;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
 import com.unity3d.player.UnityPlayer;
+
 import edu.utoronto.cimsah.myankle.Accelerometers.Accelerometer;
 import edu.utoronto.cimsah.myankle.Accelerometers.AccelerometerManager;
-
-import edu.utoronto.cimsah.myankle.FragmentGameEntrance;
 import edu.utoronto.cimsah.myankle.R;
 
 public class MainActivity extends UnityPlayerActivity implements Accelerometer.AccelerometerListener{
     private UnityPlayer mUnityPlayer;
 
 
-
+        public Vibrator vibrator;
     private Accelerometer mAccelerometer;
     private TextView textViewX;
     private TextView textViewY;
@@ -25,7 +26,7 @@ public class MainActivity extends UnityPlayerActivity implements Accelerometer.A
 
     public static int device;
 
-
+    public static float BN;
     public static float x;
     public static float y;
     public static float z;
@@ -40,7 +41,7 @@ public class MainActivity extends UnityPlayerActivity implements Accelerometer.A
         int glesMode = mUnityPlayer.getSettings().getInt("gles_mode", 1);
         boolean trueColor8888 = false;
         mUnityPlayer.init(glesMode, trueColor8888);
-
+        vibrator=(Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
         // Add the Unity view
         FrameLayout layout = (FrameLayout) findViewById(R.id.u3dlayout);
         FrameLayout.LayoutParams lp = new FrameLayout.LayoutParams(RadioGroup.LayoutParams.FILL_PARENT, FrameLayout.LayoutParams.FILL_PARENT);
@@ -56,16 +57,29 @@ public class MainActivity extends UnityPlayerActivity implements Accelerometer.A
     @Override
     public void onAccelerometerEvent(final float[] values) {
 
-         x = -values[0]/2;
-         y = values[1]/2;
-         z = values[2]/2;
+         x = values[0];
+         y = values[1];
+         z = values[2];
         x = (float)(Math.round(x*100))/100;
         y = (float)(Math.round(y*100))/100;
         z = (float)(Math.round(z*100))/100;
 
+
+        double tmp = x*x + y*y + z*z - 9.80*9.80;
+        BN =  (float)Math.sqrt(tmp);
+        if (!(BN >= 0))
+        {
+            BN = 0;
+        }
+
+        if(BN>3)
+        {
+            vibrator.vibrate(100);
+        }
+
         textViewX.setText("" + x);
         textViewY.setText("" + y);
-        textViewZ.setText("" + z);
+        textViewZ.setText("BN" + BN);
 
     }
 
@@ -82,6 +96,7 @@ public class MainActivity extends UnityPlayerActivity implements Accelerometer.A
 
     public static float getX() {
        if(device == AccelerometerManager.TYPE_METAWEAR) {
+
            if (Math.abs(z) > 0.1)
                return z/2;
            else
@@ -103,7 +118,11 @@ public class MainActivity extends UnityPlayerActivity implements Accelerometer.A
 
     public static float getBN() {
 
-        return  FragmentGameEntrance.realTimeBN;
+
+
+            return  BN;
     }
+
+
 
 }
