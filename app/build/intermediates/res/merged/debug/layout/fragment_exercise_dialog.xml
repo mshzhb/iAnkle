@@ -101,4 +101,4 @@
         android:text="@string/ankle_selection_dialog_done"
         android:textColor="@color/white" />
 
-</LinearLayout><!-- From: file:/Users/mshzhb/StudioProjects/iAnkle/app/src/main/res/layout/fragment_exercise_dialog.xml -->
+</LinearLayout><!-- From: file:/Users/mshzhb/AndroidProject/iAnkle/app/src/main/res/layout/fragment_exercise_dialog.xml -->

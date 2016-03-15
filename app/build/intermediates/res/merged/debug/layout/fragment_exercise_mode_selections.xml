@@ -45,4 +45,4 @@
         android:padding="@dimen/small_margin"
         android:src="@drawable/ic_eyes_open_pressed" />
 
-</LinearLayout><!-- From: file:/Users/mshzhb/StudioProjects/iAnkle/app/src/main/res/layout/fragment_exercise_mode_selections.xml -->
+</LinearLayout><!-- From: file:/Users/mshzhb/AndroidProject/iAnkle/app/src/main/res/layout/fragment_exercise_mode_selections.xml -->

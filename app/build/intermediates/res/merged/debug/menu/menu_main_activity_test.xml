@@ -4,4 +4,4 @@
     <item android:id="@+id/action_settings" android:title="@string/action_settings"
         android:orderInCategory="100" app:showAsAction="never" />
 </menu>
-<!-- From: file:/Users/mshzhb/StudioProjects/iAnkle/app/src/main/res/menu/menu_main_activity_test.xml -->
+<!-- From: file:/Users/mshzhb/AndroidProject/iAnkle/app/src/main/res/menu/menu_main_activity_test.xml -->

@@ -53,4 +53,4 @@
         android:title="@string/menu_item_connect"
         android:visible="true" />
     
-</menu><!-- From: file:/Users/mshzhb/StudioProjects/iAnkle/app/src/main/res/menu/main_menu.xml -->
+</menu><!-- From: file:/Users/mshzhb/AndroidProject/iAnkle/app/src/main/res/menu/main_menu.xml -->

@@ -22,4 +22,4 @@
     android:gravity="center"
     android:textColor="@color/date_picker_year_selector"
     android:textSize="@dimen/year_label_text_size" />
-<!-- From: file:/D:/WORKAREA/datetimepicker/library/res/layout/year_label_text_view.xml --><!-- From: file:/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/exploded-aar/com.github.citux/datetimepicker/0.1.2/res/layout/year_label_text_view.xml -->
+<!-- From: file:/D:/WORKAREA/datetimepicker/library/res/layout/year_label_text_view.xml --><!-- From: file:/Users/mshzhb/AndroidProject/iAnkle/app/build/intermediates/exploded-aar/com.github.citux/datetimepicker/0.1.2/res/layout/year_label_text_view.xml -->

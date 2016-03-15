@@ -22,4 +22,4 @@
     android:minHeight="48dp"
     android:text="@string/done_label"
     android:textSize="@dimen/done_label_size"
-    android:textColor="@color/done_text_color"/><!-- From: file:/D:/WORKAREA/datetimepicker/library/res/layout/date_picker_done_button.xml --><!-- From: file:/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/exploded-aar/com.github.citux/datetimepicker/0.1.2/res/layout/date_picker_done_button.xml -->
+    android:textColor="@color/done_text_color"/><!-- From: file:/D:/WORKAREA/datetimepicker/library/res/layout/date_picker_done_button.xml --><!-- From: file:/Users/mshzhb/AndroidProject/iAnkle/app/build/intermediates/exploded-aar/com.github.citux/datetimepicker/0.1.2/res/layout/date_picker_done_button.xml -->

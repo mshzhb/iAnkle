@@ -57,8 +57,8 @@ public class FragmentTitle extends Fragment implements OnClickListener {
 		cur.close();
 		
 		// Request new serverId from server if serverId is invalid
+		/*
 		if(mServerId < 0 ) {
-			
 			ActivityMain.mPipelineThread.enqueueNewTask(
 					new RunnableGetUserId(
 							getActivity(),
@@ -73,6 +73,7 @@ public class FragmentTitle extends Fragment implements OnClickListener {
 			// update the serverId in preferences
 			PrefUtils.setIntPreference(getActivity(), PrefUtils.SERVER_ID, mServerId);
 		}
+		*/
 	}
 
 	@Override

@@ -44,4 +44,4 @@
         android:scaleType="centerCrop"
         android:contentDescription="@string/layout_scanner_list_row_bluetooth_bonded" />
     
-</RelativeLayout><!-- From: file:/Users/mshzhb/StudioProjects/iAnkle/app/src/main/res/layout/layout_scanner_list_row.xml -->
+</RelativeLayout><!-- From: file:/Users/mshzhb/AndroidProject/iAnkle/app/src/main/res/layout/layout_scanner_list_row.xml -->

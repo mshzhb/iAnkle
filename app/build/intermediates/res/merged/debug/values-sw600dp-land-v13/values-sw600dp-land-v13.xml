@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/exploded-aar/com.github.citux/datetimepicker/0.1.2/res/values-sw600dp-land-v13/values.xml -->
+    <!-- From: file:/Users/mshzhb/AndroidProject/iAnkle/app/build/intermediates/exploded-aar/com.github.citux/datetimepicker/0.1.2/res/values-sw600dp-land-v13/values.xml -->
     <eat-comment/>
     <dimen name="ampm_label_size">21sp</dimen>
     <dimen name="ampm_left_padding">7dip</dimen>

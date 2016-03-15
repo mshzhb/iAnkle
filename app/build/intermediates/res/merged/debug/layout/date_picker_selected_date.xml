@@ -67,4 +67,4 @@
         android:textColor="@color/date_picker_selector"
         android:textSize="@dimen/selected_date_year_size" />
 
-</LinearLayout><!-- From: file:/D:/WORKAREA/datetimepicker/library/res/layout/date_picker_selected_date.xml --><!-- From: file:/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/exploded-aar/com.github.citux/datetimepicker/0.1.2/res/layout/date_picker_selected_date.xml -->
+</LinearLayout><!-- From: file:/D:/WORKAREA/datetimepicker/library/res/layout/date_picker_selected_date.xml --><!-- From: file:/Users/mshzhb/AndroidProject/iAnkle/app/build/intermediates/exploded-aar/com.github.citux/datetimepicker/0.1.2/res/layout/date_picker_selected_date.xml -->

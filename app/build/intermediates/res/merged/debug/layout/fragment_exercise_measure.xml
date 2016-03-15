@@ -64,4 +64,4 @@
         android:paddingRight="@dimen/large_margin"
         android:paddingTop="@dimen/small_margin" />
 
-</RelativeLayout><!-- From: file:/Users/mshzhb/StudioProjects/iAnkle/app/src/main/res/layout/fragment_exercise_measure.xml -->
+</RelativeLayout><!-- From: file:/Users/mshzhb/AndroidProject/iAnkle/app/src/main/res/layout/fragment_exercise_measure.xml -->

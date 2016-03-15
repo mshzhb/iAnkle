@@ -5,4 +5,4 @@
                android:toYDelta="100%"
                android:interpolator="@android:anim/accelerate_interpolator"
                android:duration="@android:integer/config_mediumAnimTime"/>
-</set><!-- From: file:/Users/mshzhb/StudioProjects/iAnkle/app/src/main/res/anim/slide_down.xml -->
+</set><!-- From: file:/Users/mshzhb/AndroidProject/iAnkle/app/src/main/res/anim/slide_down.xml -->

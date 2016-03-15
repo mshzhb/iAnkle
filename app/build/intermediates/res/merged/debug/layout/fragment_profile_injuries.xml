@@ -165,4 +165,4 @@
         android:text="@string/profile_question_button_bar_finish"
         android:textColor="@color/white" />
 
-</RelativeLayout><!-- From: file:/Users/mshzhb/StudioProjects/iAnkle/app/src/main/res/layout/fragment_profile_injuries.xml -->
+</RelativeLayout><!-- From: file:/Users/mshzhb/AndroidProject/iAnkle/app/src/main/res/layout/fragment_profile_injuries.xml -->

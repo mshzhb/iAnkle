@@ -24,4 +24,4 @@
     android:textColor="@color/white"
     android:textSize="@dimen/date_picker_header_text_size"
     android:importantForAccessibility="no" />
-<!-- From: file:/D:/WORKAREA/datetimepicker/library/res/layout/date_picker_header_view.xml --><!-- From: file:/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/exploded-aar/com.github.citux/datetimepicker/0.1.2/res/layout/date_picker_header_view.xml -->
+<!-- From: file:/D:/WORKAREA/datetimepicker/library/res/layout/date_picker_header_view.xml --><!-- From: file:/Users/mshzhb/AndroidProject/iAnkle/app/build/intermediates/exploded-aar/com.github.citux/datetimepicker/0.1.2/res/layout/date_picker_header_view.xml -->

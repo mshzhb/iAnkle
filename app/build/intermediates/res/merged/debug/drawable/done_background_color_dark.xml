@@ -22,4 +22,4 @@
           android:drawable="@color/red" />
 
     <item android:drawable="@color/light_gray" />
-</selector><!-- From: file:/D:/WORKAREA/datetimepicker/library/res/drawable/done_background_color_dark.xml --><!-- From: file:/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/exploded-aar/com.github.citux/datetimepicker/0.1.2/res/drawable/done_background_color_dark.xml -->
+</selector><!-- From: file:/D:/WORKAREA/datetimepicker/library/res/drawable/done_background_color_dark.xml --><!-- From: file:/Users/mshzhb/AndroidProject/iAnkle/app/build/intermediates/exploded-aar/com.github.citux/datetimepicker/0.1.2/res/drawable/done_background_color_dark.xml -->

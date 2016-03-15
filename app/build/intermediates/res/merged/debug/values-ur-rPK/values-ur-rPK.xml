@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values-ur-rPK/values-ur-rPK.xml -->
+    <!-- From: file:/Users/mshzhb/AndroidProject/iAnkle/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values-ur-rPK/values-ur-rPK.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"ہوم پر نیویگیٹ کریں"</string>
     <string msgid="1594238315039666878" name="abc_action_bar_up_description">"اوپر نیویگیٹ کریں"</string>
@@ -15,7 +15,7 @@
     <string msgid="893419373245838918" name="abc_searchview_description_voice">"صوتی تلاش"</string>
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"اشتراک کریں مع"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"‏%s کے ساتھ اشتراک کریں"</string>
-    <!-- From: file:/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/exploded-aar/com.github.citux/datetimepicker/0.1.2/res/values-ur-rPK/values.xml -->
+    <!-- From: file:/Users/mshzhb/AndroidProject/iAnkle/app/build/intermediates/exploded-aar/com.github.citux/datetimepicker/0.1.2/res/values-ur-rPK/values.xml -->
     <eat-comment/>
     <string msgid="3968620852217927702" name="day_picker_description">"دنوں کا ماہ کا گرڈ"</string>
     <string msgid="6908431551612331381" name="deleted_key">"<ns1:g id="KEY">%1$s</ns1:g> حذف ہوگیا"</string>

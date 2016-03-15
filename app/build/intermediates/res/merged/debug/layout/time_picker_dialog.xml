@@ -54,4 +54,4 @@
         android:textSize="@dimen/done_label_size"
         android:textColor="@color/done_text_color" />
 </LinearLayout>
-<!-- From: file:/D:/WORKAREA/datetimepicker/library/res/layout/time_picker_dialog.xml --><!-- From: file:/Users/mshzhb/StudioProjects/iAnkle/app/build/intermediates/exploded-aar/com.github.citux/datetimepicker/0.1.2/res/layout/time_picker_dialog.xml -->
+<!-- From: file:/D:/WORKAREA/datetimepicker/library/res/layout/time_picker_dialog.xml --><!-- From: file:/Users/mshzhb/AndroidProject/iAnkle/app/build/intermediates/exploded-aar/com.github.citux/datetimepicker/0.1.2/res/layout/time_picker_dialog.xml -->

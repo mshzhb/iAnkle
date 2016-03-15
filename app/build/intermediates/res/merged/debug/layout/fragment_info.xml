@@ -39,4 +39,4 @@
         	android:textSize="@dimen/small_text" />
                
     </ScrollView>
-</RelativeLayout><!-- From: file:/Users/mshzhb/StudioProjects/iAnkle/app/src/main/res/layout/fragment_info.xml -->
+</RelativeLayout><!-- From: file:/Users/mshzhb/AndroidProject/iAnkle/app/src/main/res/layout/fragment_info.xml -->
